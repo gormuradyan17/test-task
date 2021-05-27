@@ -19,7 +19,7 @@ class User extends Authenticatable
     protected $fillable = [
         'first_name', 'last_name', 'age', 'address', 'email', 'password',
         'avatar', 'provider_id', 'provider',
-        'access_token', 'name', 'role_id'
+        'access_token', 'name', 'role_id', 'status'
     ];
 
     /**
@@ -40,4 +40,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
 }

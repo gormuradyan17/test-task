@@ -34,5 +34,10 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('/files/{id}', [App\Http\Controllers\PostController::class, 'deleteFile'])->name('file.delete');
 });
 
+Route::group(['prefix' => '/admin', 'middleware' => 'isAdmin'], function () {
+    Route::get('/', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
+    Route::resource('users', App\Http\Controllers\AdminController::class);
+});
+
 
 
