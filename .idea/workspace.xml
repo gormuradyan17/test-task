@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d14cb2f7-0576-4023-ae76-0fd53d7d4275" name="Default Changelist" comment="push test task">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,8 @@
       <workItem from="1621920497237" duration="25428000" />
       <workItem from="1622111817588" duration="763000" />
       <workItem from="1622123814742" duration="8226000" />
-      <workItem from="1622137248425" duration="349000" />
+      <workItem from="1622137248425" duration="601000" />
+      <workItem from="1622270275736" duration="1446000" />
     </task>
     <servers />
   </component>
@@ -212,10 +213,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="19" width="646" height="690" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1622128947290" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1621947119544">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1622137860316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1621947119544" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1622137860316" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1622137880521">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1622137880521" />
     <state x="484" y="178" key="NewPhpClassDialog" timestamp="1621941749148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,17 +233,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1621920844258" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1622136289705">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1622137837082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1622136289705" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1622137248581">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1622137837082" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1622270280654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1622137248581" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621942735627">
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1622270280654" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622270312599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621942735627" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622270312599" />
   </component>
 </project>
